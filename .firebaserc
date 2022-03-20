@@ -1,5 +1,7 @@
 {
   "projects": {
-    "default": "onehive-80095"
-  }
+    "default": "onehive-94fce",
+    "oh-staging": "onehive-94fce"
+  },
+  "targets": {}
 }
