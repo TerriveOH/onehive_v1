@@ -68,7 +68,7 @@ class OHRouterDelegate extends RouterDelegate<OHConfig>
 
   @override
   // TODO: implement navigatorKey
-  GlobalKey<NavigatorState>? get navigatorKey => throw UnimplementedError();
+  GlobalKey<NavigatorState>? get navigatorKey => _navigatorKey;
 
   OHConfig get currentConfiguration {
     if (loggedIn == 0 && show404 == false) {
